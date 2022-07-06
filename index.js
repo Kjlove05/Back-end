@@ -10,9 +10,6 @@ app.use(cors())
 
 const Note = require('./models/note')
 
-// const url = `mongodb+srv://kj:fullstack@cluster0.zqeex.mongodb.net/noteApp?retryWrites=true&w=majority`
-
-// mongoose.connect(url)
 
 const requestLogger = (request, response, next) => {
   console.log('Method:', request.method)
